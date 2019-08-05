@@ -5,7 +5,7 @@ Summer 2019
 ## Summary
 This repository contains an Excel workbook which has been designed to help users track personal finances and investments.  The workbook contains regions for input (such as transactions) and regions with automatic calculations to help summarize and visualize trends in your finances.
 
-I created this spreadsheet for personal use, and I am sharing it because I hope it will help others manage their money and achieve their financial goals.  I have done my best to make the spreadsheet "just work" for those unfamiliar with Excel, but if you are familiar with Excel, I encourage you to adjust the layout and formulas to best suit your needs. 
+I created this spreadsheet for personal use, and I am sharing it in hopes that it will help others manage their money and achieve their financial goals.  I have done my best to make the spreadsheet "just work" for those unfamiliar with Excel, but if you are familiar with Excel, I encourage you to adjust the layout and formulas to best suit your needs. 
 
 All of the sheets of the workbook are protected, which prevents users from accidentally breaking the formulas.  **For the general use case, you should not need to unprotect any sheets**.  If you would like to make changes or add new features, you will likely need to unprotect certain sheets.  Do note that many of the formulas are complex and highly interdependent, so be careful when making changes.  
 
@@ -33,12 +33,13 @@ The first column (`Column A`) of each sheet contains instructional information, 
 ## Getting Started
 For the best experience, I recommend that you take the following steps when first using this workbook:
 1. Find a safe place to store `PersonalFinance.xlsx`.  You may wish to keep it in a Git repository for versioning, but you may wish to copy the file elsewhere so the contents of the file are not tracked.
-2. The first column (`Column A`) of each sheet contains instructional information about that sheet. Skim through the first column of each sheet to familiarize yourself with the workbook.  
-2. Look through the `Config_Categories` sheet and add any categories or subcategories that you would like.
-3. In the `Config_Accounts` sheet, fill in the information about your liquid and investment accounts.
-4. In the `Transactions` sheet, fill in the starting balance for each of liquid account on `Row 3` as instructed. 
-5. In the `Investments` sheet, fill in the current balance and total contribution for each investment account on `Row 3` as instructed.
-6. Use some method to protect and encrypt your workbook.  You can add a password in Excel under `File -> Protect Workbook` or use an external encryption method. 
+2. The first column (`Column A`) of each sheet contains instructional information about that sheet. Skim through the first column of each sheet to familiarize yourself with the workbook.
+3. Sheets requiring input have made-up data to serve as references.  When you no longer need these examples, delete them.  
+4. Look through the `Config_Categories` sheet and add any categories or subcategories that you would like.
+5. In the `Config_Accounts` sheet, fill in the names and information of your liquid and investment accounts.
+6. In the `Transactions` sheet, fill in the starting balance for each of liquid account on `Row 3` as instructed. 
+7. In the `Investments` sheet, fill in the current balance and total contribution for each investment account on `Row 3` as instructed.
+8. Use some method to protect and encrypt your workbook.  You can add a password in Excel under `File -> Protect Workbook` or use an external encryption method. 
 
 
 After getting set up, track your finances by doing the following:
