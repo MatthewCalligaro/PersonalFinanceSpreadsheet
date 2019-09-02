@@ -23,9 +23,10 @@ The workbook contains the following sheets:
 5. **AnnualReport**: an annual summary of financial activity, including trends in accounts and breakdown of transactions by categories.
 6. **Categorical**: a pivot table aggregating transactions by categories and subcategories.
 7. **Charity**: a place to record charitable donations; tracks annual summaries and all time contributions per charity.
-8. **PlannedPurchases**: a place to record upcoming large purchases.
-9. **Graphs**: plots trends in wealth, investment accounts, expenses, etc. on a monthly basis.
-10. **Config_Categories**: allows the user to specify categories and subcategories which are used throughout the workbook.
+8. **CreditScore**: a place to track your FICO credit score.
+9. **PlannedPurchases**: a place to record upcoming large purchases.
+10. **Graphs**: plots trends in wealth, investment accounts, expenses, etc. on a monthly basis.
+11. **Config_Categories**: allows the user to specify categories and subcategories which are used throughout the workbook.
 11. **Config_Accounts**: allows the user to specify liquid and investment accounts which are used throughout the workbook.
 
 The first column (`Column A`) of each sheet contains instructional information, including explanations of each column of that sheet.
